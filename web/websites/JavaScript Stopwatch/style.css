@@ -1,0 +1,36 @@
+:root {
+    --color1: #ffa500;
+    --black: #000000;
+    --white: #fff;
+}
+
+
+body {
+    background-color: var(--color1);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    color: var(--black);
+}
+
+.wrapper {
+    width: auto;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-weight: 100;
+
+}
+
+button{
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: var(--color1);
+    cursor: pointer;
+}
+
+
